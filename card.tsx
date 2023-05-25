@@ -87,7 +87,7 @@ export const GitHubCard: FunctionComponent<GitHubCardProps> = ({
               </div>
               <h1>
                 <a
-                  className="font-mono text-2xl font-semibold"
+                  className="font-mono text-2xl text-white font-semibold"
                   href={user.html_url}
                   target="_blank"
                   rel="noopener"
@@ -100,7 +100,7 @@ export const GitHubCard: FunctionComponent<GitHubCardProps> = ({
                   {user.login}
                 </a>
               </div>
-              <p className="w-60 font-mono text-base">{user.bio ?? ""}</p>
+              <p className="w-60 font-mono text-white text-base">{user.bio ?? ""}</p>
               <div className="mt-8">
                 <div className="flex justify-around space-x-2 rounded-md border-t-4 border-t-[#F54768]  bg-[#1D2025] p-2 shadow-md shadow-slate-800">
                   <div className="box-wrapper">
