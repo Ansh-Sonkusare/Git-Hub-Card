@@ -1,19 +1,41 @@
 {
-    "name": "gitcard-react",
-    "version": "1.2.0",
-    "keywords": [
-        "React",
-        "GitHub"
-    ],
-    "description": "",
-    "main": "card.tsx",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "peerDependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    }
+  "name": "github-card-react",
+  "version": "1.0.4",
+  "description": "",
+  "license": "ISC",
+  "repository": "Ansh-Sonkusare/Git-Hub-Card",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "start": "rollup -c -w --bundleConfigAsCjs"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^2.8.3"
+  },
+  "files": [
+    "dist",
+    "./README.md"
+  ],
+  "keywords": [
+    "React",
+    "GitHub"
+  ]
 }
